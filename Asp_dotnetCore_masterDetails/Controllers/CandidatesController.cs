@@ -41,6 +41,7 @@ namespace Asp_dotnetCore_masterDetails.Controllers
                     Phone = candidateVM.Phone,
                     Fresher = candidateVM.Fresher
                 };
+                //for image insert
                 var file = candidateVM.ImagePath;
                 string webroot = _he.WebRootPath;
                 string folder = "Images";
